@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #a4dad2;
+}
+
+header {
+    background: #569099;
+    color: #f6d809;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav {
+    font-weight: bold;
+    background: #569099;
+    display: flex;;
+    font-size: 15px;
+}
+nav a{
+    float: left;
+    display: block;
+    color: #f6d809;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a.current:link, nav a.current:visited {
+    background-color: #a4dad2;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+span {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+main {
+    display: grid;
+    grid-template-columns: auto 250px;
+}
+
+aside {
+    background-color:#bce08a;
+    display: block;
+    padding: 10px;
+}
+
+aside div {
+    padding-bottom: 20px;
+}
+
+aside div img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+aside .imgdesc {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+}
+
+article {
+    padding: 20px;
+    background-color:#a4dad2;
+}
+
+article div {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    object-fit: cover;
+    text-align: justify;
+}
+
+article img {
+    width: 600px;
+    height: 300px;
+}
+
+footer {
+    background-color: #569099;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .sources {
+    width: 60%;
+    text-align: justify;
+}
+
+.fb {
+    background: url('../images/icons.png') no-repeat 10.553% 6.365%;
+	width: 50.75px;
+	height: 50.75px;
+    background-size: 400%;
+}
+
+.insta {
+    background: url('../images/icons.png') no-repeat 50% 6.365%;
+	width: 50.5px;
+	height: 50.75px;
+    background-size: 400%;
+}
